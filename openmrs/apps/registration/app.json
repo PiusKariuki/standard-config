@@ -39,6 +39,16 @@
                         "email"
                     ]
                 },
+                "nextofKinInformation": {
+                    "title": "Additional Patient Information",
+                    "translationKey": "NEXTOFKIN_INFO_KEY",
+                    "attributes": [
+                        "nextofKinName",
+                        "nextofKinRelationship"
+                    ],
+                    "expand" : true,
+                    "order" : 2
+                },
                 "hidden": {
                     "attributes": [
                         "primaryContact"
@@ -50,7 +60,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
+                "showAddressFieldsTopDown": true,
                 "strictAutocompleteFromLevel": "stateProvince"
             },
             "relationshipTypeMap": {
