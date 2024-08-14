@@ -31,20 +31,6 @@
         "order": 1,
         "requiredPrivilege": "View Patients"
     },
-    "nutritionalValues":{
-        "id": "bahmni.registration.conceptSetGroup.nutritionalLevels",
-        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "config",
-        "extensionParams": {
-            "conceptName": "Nutritional Values",
-            "translationKey": "NUTRITIONAL_VALUES_LOCALE_KEY",
-            "conceptNames": ["HEIGHT", "WEIGHT", "BMI Data", "BMI Status Data"],
-            "required":true,
-            "showLatest": true
-        },
-        "order": 1,
-        "requiredPrivilege": "Edit Visits"
-    },
     "feeInformation":{
         "id": "bahmni.registration.conceptSetGroup.feeInformation",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
@@ -55,6 +41,30 @@
             "required":true
         },
         "order": 2,
+        "requiredPrivilege": "Edit Visits"
+    },
+    "paymentMode":{
+        "id": "bahmni.registration.conceptSetGroup.paymentMode",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "config",
+        "extensionParams": {
+            "conceptName": "Payment Method",
+            "translationKey": "PAYMENT_MODE_LOCALE_KEY",
+            "required":true
+        },
+        "order": 3,
+        "requiredPrivilege": "Edit Visits"
+    },
+    "providerAssignment":{
+        "id": "bahmni.registration.conceptSetGroup.providerAssignment",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "config",
+        "extensionParams": {
+            "conceptName": "Provider Assignment",
+            "translationKey": "PROVIDER_ASSIGNMENT_LOCALE_KEY",
+            "required":true
+        },
+        "order": 4,
         "requiredPrivilege": "Edit Visits"
     }
 }

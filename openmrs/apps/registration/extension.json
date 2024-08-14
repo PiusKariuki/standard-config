@@ -42,5 +42,18 @@
         },
         "order": 3,
         "requiredPrivilege": "Edit Visits"
+    },
+    "registrationSecondPage2":{
+        "id": "bahmni.registration.conceptSetGroup.registrationSecondPage1",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "forms",
+        "extensionParams": {
+            "formName": "Provider Assignment",
+            "conceptNames": ["Provider Assignment"],
+            "showLatest": true
+        },
+        "order": 4,
+        "requiredPrivilege": "Edit Visits"
     }
 }
+
