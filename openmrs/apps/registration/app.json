@@ -61,7 +61,7 @@
             },
             "addressHierarchy": {
                 "showAddressFieldsTopDown": true,
-                "strictAutocompleteFromLevel": "stateProvince"
+                "strictAutocompleteFromLevel": "address2"
             },
             "relationshipTypeMap": {
                 "Doctor":"provider",
@@ -131,7 +131,7 @@
             },
             "addressHierarchy": {
                 "showAddressFieldsTopDown": false,
-                "strictAutocompleteFromLevel": "postalCode"
+                "strictAutocompleteFromLevel": "address2"
             }
         }
 }
