@@ -1,20 +1,20 @@
 name: Build and Upload
-on:
-  push:
-    branches:
-      - master
-      - 'release-*'
-    tags:
-      - '[0-9]+.[0-9]+.[0-9]+'
-    paths-ignore:
-      - "**.md"
-  workflow_run:
-    workflows: [Pull Translations from Transifex]
-    types: [completed]
-    branches:
-      - master
-      - 'release-*'
-  workflow_dispatch:
+# on:
+#   push:
+#     branches:
+#       - master
+#       - 'release-*'
+#     tags:
+#       - '[0-9]+.[0-9]+.[0-9]+'
+#     paths-ignore:
+#       - "**.md"
+#   workflow_run:
+#     workflows: [Pull Translations from Transifex]
+#     types: [completed]
+#     branches:
+#       - master
+#       - 'release-*'
+#   workflow_dispatch:
 
 jobs:
   build-publish-docker-helm:
