@@ -20,7 +20,7 @@
         "onAdmissionForwardTo": "#",
         "onTransferForwardTo": "#",
         "onDischargeForwardTo": "#",
-        "defaultVisitType": "IPD",
+        "defaultVisitType": "OPD",
         "enableIPDFeature": true,
         "expectedDateOfDischarge": "",
         "ignoredTabularViewHeadings": ["uuid","activeVisitUuid","hasBeenAdmitted","display","image","$$hashKey","birthDate","extraIdentifiers","personId","deathDate","addressFieldValue","dateCreated","customAttribute","patientProgramAttributeValue"],
