@@ -36,7 +36,9 @@
                         "familyIncome",
                         "debt",
                         "cluster",
-                        "email"
+                        "occupation",
+                        "civilstatus",
+                        "highestEducationlevel"
                     ]
                 },
                 "hidden": {
@@ -48,6 +50,12 @@
                     "class": "General",
                     "landHolding": 2
                 }
+            },
+            "contactInformation": {
+                "title": "Contact Information",
+                "attributes": [
+                    "email"
+                ]
             },
             "addressHierarchy": {
                 "showAddressFieldsTopDown": false,
