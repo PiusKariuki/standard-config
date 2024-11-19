@@ -30,10 +30,19 @@
                     "title": "Additional Patient Information",
                     "attributes": [
                         "occupation",
-                        "Specify Occupation",
                         "civilstatus",
                         "highestEducationlevel"
-                    ]
+                    ],
+                    "order": 3
+                },
+                "specifyOccupation": {
+                    "title": "Specify patient Occupation",
+                    "translationKey": "OTHER_OCCUPATION_INFO_KEY",
+                    "attributes": [
+                        "Specify Occupation"
+                    ],
+                    "expand": true,
+                    "order": 4
                 },
                 "nextofKinInformation": {
                     "title": "Additional Patient Information",
@@ -101,12 +110,6 @@
                 "REGISTRATION FEES": {
                     "required": true,
                     "label": "Fee"
-                },
-                "FHS": {
-                    "buttonSelect": true
-                },
-                "defaults":{
-                    "FHS": "Present"
                 }
             },
             "fieldValidation" : {
