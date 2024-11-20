@@ -22,5 +22,6 @@
   "FEE_INFORMATION_LOCALE_KEY": "Fee Information",
   "NUTRITIONAL_VALUES_LOCALE_KEY": "Nutritional Values",
   "NEXTOFKIN_INFO_KEY": "Next of Kin Details",
-  "REGISTRATION_PRINT_WITH_BARCODE": "Bar<u>c</u>ode Print"
+  "REGISTRATION_PRINT_WITH_BARCODE": "Bar<u>c</u>ode Print",
+  "OTHER_OCCUPATION_INFO_KEY": "Specify Patient Occupation"
 }

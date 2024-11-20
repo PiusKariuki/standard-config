@@ -36,7 +36,7 @@
                     "order": 3
                 },
                 "specifyOccupation": {
-                    "title": "Specify patient Occupation",
+                    "title": "Specify Patient Occupation",
                     "translationKey": "OTHER_OCCUPATION_INFO_KEY",
                     "attributes": [
                         "Specify Occupation"
