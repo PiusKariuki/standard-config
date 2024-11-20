@@ -23,5 +23,6 @@
   "NUTRITIONAL_VALUES_LOCALE_KEY": "Nutritional Values",
   "NEXTOFKIN_INFO_KEY": "Next of Kin Details",
   "REGISTRATION_PRINT_WITH_BARCODE": "Bar<u>c</u>ode Print",
+  "REGISTRATION_EMAIL_ERROR_KEY": "Please enter a valid email"
   "OTHER_OCCUPATION_INFO_KEY": "Specify Patient Occupation"
 }

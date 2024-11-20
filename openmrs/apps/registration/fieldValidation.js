@@ -16,5 +16,11 @@ Bahmni.Registration.customValidator = {
             return value.match(/^\w+$/);
         },
         errorMessage: "REGISTRATION_CASTE_TEXT_ERROR_KEY"
+    },
+    "nextOfKinEmail": {
+        method: function (name, value){
+            return value.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)
+        },
+        errorMessage: "REGISTRATION_EMAIL_ERROR_KEY"
     }
 };
