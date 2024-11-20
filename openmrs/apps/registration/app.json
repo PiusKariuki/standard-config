@@ -49,6 +49,8 @@
                     "translationKey": "NEXTOFKIN_INFO_KEY",
                     "attributes": [
                         "nextofKinName",
+                        "nextOfKinPhoneNumber",
+                        "nextOfKinEmail",
                         "nextofKinRelationship"
                     ],
                     "expand" : true,
